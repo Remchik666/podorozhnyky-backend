@@ -1,5 +1,5 @@
 import express from "express";
-import { auth } from "../middleware/auth.js";
+import { auth } from "../middlewares/auth.js";
 import { ctrlWrapper } from "../utils/ctrlWrapper.js";
 import {
   saveStory,

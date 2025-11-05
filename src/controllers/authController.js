@@ -2,7 +2,7 @@ import bcrypt from "bcryptjs";
 import crypto from "node:crypto";
 import createHttpError from "http-errors";
 
-import User from "../models/User.js";
+import { User } from "../models/User.js";
 import { Session } from "../models/Session.js";
 
 const ACCESS_TOKEN_LIFETIME = 15 * 60 * 1000; // 15 minutes
