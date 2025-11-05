@@ -1,0 +1,43 @@
+{
+  "name": "podorozhnyky-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend для проекта Подорожники",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Remchik666/podorozhnyky-backend.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "backend"
+  ],
+  "author": "Artem Remchik <art6000.7m@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Remchik666/podorozhnyky-backend/issues"
+  },
+  "homepage": "https://github.com/Remchik666/podorozhnyky-backend#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "http-errors": "^2.0.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.7"
+  }
+}
